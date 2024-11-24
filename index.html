@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+
+<style>
+* {
+  box-sizing: border-box;
+  vertical-align:middle;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #3c5c86;
+  color: #ffffff;
+  padding: 15px;
+
+}
+
+.header table
+{
+    text-align: center;
+    }
+
+.menu ul {
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #8da1c8;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+
+.menu a:hover,  .menu a:active,  .menu a:visited,  .menu a:link
+{
+    text-decoration: none;
+    color:white;
+}
+
+
+.aside {
+  background-color: #8da1c8;
+  padding: 15px;
+  color: #ffffff;
+  text-align: left;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+mainContent{ display:block; color:#3c5c86;}
+
+.footer {
+  background-color: #5d80bb;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+h1, .footer h1
+{
+    text-align:center;
+    font-family: "Parisienne", serif;
+}
+
+img { border-left:3px; border-right:3px; }
+
+body {
+
+  /* font-family: Calibri; */
+  font-family: 'DM Serif Text', serif;
+  font-size:12pt;
+  color:#3c5c86;
+}
+
+/* Google fonts */
+
+.dm-serif-text-regular {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-text-regular-italic {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+
+</style>
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Parisienne&display=swap" rel="stylesheet">
+
+<title>OzonoCell - Terapia alternativa para vivir mejor</title>
+
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
+</head>
+
+<body>
+
+<div class="header">
+
+<table>
+<tr>
+<td>
+  <img class="col-s-12" src="logo_2.png">
+  </td>
+  <td align="center">
+  <h1>Dra. Elisa Gabriela López García</h1>
+  <h2>Médico Cirujano</h2>
+  <h3>Céd. Prof. 4757177</h3>
+  </td></tr></table>
+</div>
+
+
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li><a href="tel:5517067116"> <img width="10%" src="icono_telefono.png"> Agenda tu cita telefónica</a></li>
+      <li><a href="http://wa.me/525517067116"> <img width="10%" src="icono_whatsapp.png"> Agenda vía Whatsapp</a></li>
+      <li><a href="http://m.me/261247420893894"> <img width="10%" src="icono_messenger.png"> Agenda tu cita via Messenger</a></li>
+      <li><a href="mailto:ozonocell1514@outlook.com"> <img width="10%" src="icono_email.png"> E-mail para proveedores y promotores</a></li>
+      <li><a href="https://api.whatsapp.com/send?phone&amp;text=Hola, esta es la página de la Dra. Lopez https://ozonocell.github.io/ozonocell/"> <img width="10%" src="icono_share.png">Comparte mi página via Whatsapp</a></li>
+
+      <!--
+      <li>Realiza tu pago con tarjeta</li>
+      <li>Paga tu consulta por transferencia</li>
+      -->
+
+      <li><a href="https://www.facebook.com/Ozono-Cell-261247420893894"> <img width="10%" src="icono_facebook.png">Encuéntrame en Facebook</a></li>
+      <li><a href="https://goo.gl/maps/G9xUWNq3ieg1oDgp8"> <img width="10%" src="icono_mapa.png"> Ubica mi consultorio en GoogleMaps</a></li>
+    </ul>
+  </div>
+
+  <div class="col-6 col-s-9">
+
+  <!-- ----------------------      Main content  --------------------------- -->
+
+  <div class="mainContent">
+
+  <a name="ozonoterapia"></a>
+  <h1> Ozonoterapia </h1>
+
+    <h2> ¿Qué es el ozono? </h2>
+
+        <p>El ozono es una molécula altamente reactiva que contiene excelentes propiedades como bactericida, fungicida y antiviral.</p>
+
+        <p>Su uso como terapia médica es seguro, sin efectos secundarios y positivos en la salud.</p>
+
+    <h2> ¿Qué es la ozonoterapia? </h2>
+
+        <p>Esta terapia de vanguardia fue desarrollada en Alemania durante la primera guerra mundial, como alternativa al tratamiento convencional  de enfermedades que afectan principalmente  a los huesos, articulaciones y músculos. Su finalidad es disminuir, retardar o incluso evitar tratamientos quirúrgicos.</p>
+
+        <p>Es una terapia compatible con otros tratamientos. No presenta efectos colaterales.</p>
+
+    <h2> Beneficios de la ozonoterapia en el organismo </h2>
+
+        <ul>
+            <li>Aumenta las defensas antioxidantes</li>
+            <li>Disminuye los radilaes libres</li>
+            <li>Regenera los tejidos</li>
+            <li>Mejora significativamente la circulación</li>
+            <li>Mejora la oxigenación de las células</li>
+            <li>Refuerza el sistema inmune</li>
+            <li>Regula el metabolismo</li>
+            <li>Regula el estrés oxidativo</li>
+            <li>Es revitalizante</li>
+            <li>Es regenerador</li>
+            <li>Analgésico y antiinflamatorio</li>
+            <li>Germicida (actúa contra bacterias, hongos y virus)</li>
+        </ul>
+
+    <h2> Algunas enfermedades en que se aplica con éxito </h2>
+
+        <ul>
+            <li>Abscesos</li>
+            <li>Artritis reumatoide</li>
+            <li>Colitis ulcerativas</li>
+            <li>Conflictos disco - radiculares</li>
+            <li>Demencia senil</li>
+            <li>Diverticulos intestinales</li>
+            <li>Dolor cervical</li>
+            <li>Enfermedades bucales</li>
+            <li>Enfermedades cerebrovasculares isquémicas</li>
+            <li>Enfermedades vasculares periféricas</li>
+            <li>Fibromialgia</li>
+            <li>Fisuras anales</li>
+            <li>Glaucoma</li>
+            <li>Hemorroides</li>
+            <li>Hernias discales</li>
+            <li>Herpes zoster</li>
+            <li>Impotencia sexual por factores vasculares</li>
+            <li>Isquemia renal</li>
+            <li>Mejora la calidad de vida de los pacientes diabéticos</li>
+            <li>Neuritis óptica (excepto hereditaria)</li>
+            <li>Pigmentos</li>
+            <li>Pólipos intestinales</li>
+            <li>Retinitis</li>
+            <li>Síndrome de cansancio crónico</li>
+            <li>Vértigos</li>
+        </ul>
+
+    <h2> Tratamientos médicos que complementa </h2>
+
+        <ul>
+            <li>Angiología</li>
+            <li>Cirugías</li>
+            <li>Dermatología</li>
+            <li>Endocrinología</li>
+            <li>Ginecología</li>
+            <li>Inmunología</li>
+            <li>Oftalmología</li>
+            <li>Otología</li>
+        </ul>
+
+
+<h2> Tratamiento </h2>
+
+<p>Dependiendo de la patología y  de la evolución de cada paciente, se recomiendan el número y  frecuencia de las aplicaciones.</p>
+
+<p>En una etapa inicial se indican 5 terapias diarias, seguidas de terapias semanales hasta completar 20 sesiones. Se realizan sesiones de refuerzo a los 3 o 6 meses, dependiendo de la mejoría que presente el paciente</p>
+
+
+
+
+    <a name="celulasmadre"></a>
+    <h1>Células Madre</h1>
+
+        <p>El cuerpo humano está compuesto por más de 200 tipos de células.</p>
+
+        <p>Las células madre son la base del desarrollo de las plantas, los animales y los seres humanos.</p>
+
+    <h2> ¿Qué son las células madre humanas? </h2>
+
+        <p>Son células con capacidad de proliferación y autorrenovación, se encargan de reparar y regenerar órganos, huesos, cartílago, tejidos, piel y cabello.</p>
+
+        <p>Son atraídas a zonas lesionadas.</p>
+
+    <h2> ¿En qué enfermedades podemos aplicar el tratamiento de células madre humanas? </h2>
+
+        <p>El tratamiento es conocido por su eficacia para tratar enfermedades crónico-degenerativas, autoinmunes, neurológicas, infertilidad y por su uso anti-edad.</p>
+
+        <p>Cualquier persona que desee mejorar su calidad de vida y/o mejorar su apariencia.</p>
+
+        <p>Hemos sido testigos de innumerables testimonios con excelentes resultados en:</p>
+
+        <ul>
+            <li>Artritis</li>
+            <li>Diabetes</li>
+            <li>Esclerosis múltiple</li>
+            <li>Fatiga crónica</li>
+            <li>Fibromialgia</li>
+            <li>Hernias de disco</li>
+            <li>Leptospirosis</li>
+            <li>Lumbago</li>
+            <li>Lupus</li>
+            <li>Lyme</li>
+            <li>Migraña</li>
+            <li>Parálisis facial</li>
+            <li>Síndrome del túnel del carpo</li>
+            <li>entre otros</li>
+        </ul>
+
+
+
+<h1> Mejora tu calidad de vida </h1>
+
+</div>
+
+</div> <!--- aqui termina col-6 col-s-9 --------------------------------- -->
+
+
+
+  <div class="col-3 col-s-12">
+    <div class="aside">
+      <h2>Regeneración</h2>
+          <ul>
+          <li>Promueven la formación</li>
+          <li>Activan el crecimiento y reproducción de las células propias de cada tejido</li>
+          <li>Inhiben la muerte celular</li>
+          </ul>
+      <h2>Inmuno-Modulación</h2>
+          <ul>
+          <li>Regulan la inflamación</li>
+          <li>Incrementan el potencial del sistema inmune</li>
+          <li>Auxilian en enfermedades autoinmunes</li>
+          </ul>
+      <h2>Histo-compatibilidad</h2>
+          <ul>
+          <li>Cualquier persona puede recibirlas</li>
+          <li>No provocan rechazo</li>
+          <li>No producen reacción alérgica</li>
+          </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ----------- ---termina row -------------------------------------------- -->
+
+<div class="footer">
+  <h1>Terapia alternativa para vivir mejor</h1>
+  <div>
+  Gabriel Mancera 1514-1<br>
+  Colonia Del Valle<br>
+  CDMX<br>
+  México
+  </div>
+</div>
+
+<!--
+#d3c5e7
+
+#a6b2d9
+
+#8da1c8
+
+#5d80bb
+
+#3c5c86
+
+-->
+
+
+
+</body>
+</html>
+
+
