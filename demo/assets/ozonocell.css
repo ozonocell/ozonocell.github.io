@@ -1,0 +1,6 @@
+div.article h2 { color:#336699; margin-top:50px; margin-bottom:25px;}
+div.article h3 { color:#336699; font-style:italic;}
+
+ul {
+  list-style-image: url('images/tick.png');
+}
